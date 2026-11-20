@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Understand AOSP</title>
+  <desc id="desc">Android architecture notes, from interface and model to system.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101f28"/><stop offset="1" stop-color="#182f36"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#c2e3d3" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1280" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="20" fill="url(#grid)"/>
+  <path d="M0 42V0H42" stroke="#a4e6a4" stroke-width="6" fill="none"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+    <text x="64" y="80" fill="#a4e6a4" font-size="13" font-weight="600" letter-spacing="4">ANDROID · ARCHITECTURE NOTES</text>
+    <text x="60" y="159" fill="#f4f8f6" font-size="59" font-weight="700" letter-spacing="-2">Understand AOSP</text>
+    <text x="64" y="208" fill="#b3c9c2" font-size="19">From the view tree to the system.</text>
+    <path d="M64 250H586" stroke="#425b59"/>
+    <text x="64" y="285" fill="#b3c9c2" font-size="13" letter-spacing="2">DESIGN</text>
+    <circle cx="152" cy="281" r="2" fill="#a4e6a4"/>
+    <text x="173" y="285" fill="#b3c9c2" font-size="13" letter-spacing="2">IMPLEMENTATION</text>
+    <circle cx="341" cy="281" r="2" fill="#a4e6a4"/>
+    <text x="362" y="285" fill="#b3c9c2" font-size="13" letter-spacing="2">TRADE-OFFS</text>
+    <g transform="translate(763 57)">
+      <path d="M30 39H0V205H30M342 39H375V205H342" fill="none" stroke="#48635e"/>
+      <rect x="30" width="312" height="70" rx="10" fill="#243e40" stroke="#52736b"/>
+      <rect x="30" y="86" width="312" height="70" rx="10" fill="#243e40" stroke="#52736b"/>
+      <rect x="30" y="172" width="312" height="70" rx="10" fill="#2c4a43" stroke="#a4e6a4"/>
+      <path d="M186 70V86M186 156V172" stroke="#a4e6a4" stroke-width="2"/>
+      <g fill="#a4e6a4" font-size="12" font-family="ui-monospace,SFMono-Regular,Consolas,monospace"><text x="50" y="41">01</text><text x="50" y="127">02</text><text x="50" y="213">03</text></g>
+      <g fill="#f4f8f6" font-size="20" font-weight="500"><text x="98" y="42">Interface</text><text x="98" y="128">Model</text><text x="98" y="214">System</text></g>
+      <g fill="#91afa5"><circle cx="312" cy="35" r="4"/><circle cx="312" cy="121" r="4"/><circle cx="312" cy="207" r="4" fill="#a4e6a4"/></g>
+    </g>
+  </g>
+</svg>
